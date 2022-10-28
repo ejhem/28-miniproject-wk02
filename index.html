@@ -13,74 +13,91 @@
       <h1 id="header">CSS Snippet Cheatsheet</h1>
     </header>
     <section>
-      <p>
-        have trouble recalling the exact syntax for your favourite CSS code?
+      <p class="head-arti">
+        Ever have trouble recalling the exact syntax for your favourite CSS code?
         Give it a permananent home and add it to this page! Select any snippet
         below and it'll automatically select all of the code for you to copy!
       </p>
     </section>
     <article>
-        <section class="code-card">
-      <h3 class="card-header">Flexbox Row</h3>
-      <p>Use these three properties to create a Flexbox row layout.</p>
-      <pre><code>.row {
+      <section class="code-card">
+        <h3 class="card-header">Flexbox Row</h3>
+        <p class="card-arti">
+          Use these three properties to create a Flexbox row layout.
+        </p>
+        <pre><code><span>.row {
                 display: flex;
                 flex-direction: row;
                 flex-wrap: wrap;
-        }</code></pre>
-        </section>
-        <section class="code-card">
-      <h3 class="card-header">Flexbox Column</h3>
-      <p>Use this to create a Flexbox column layout.</p>
-      <pre><code>.column {
+        }</span></code></pre>
+      </section>
+      <section class="code-card">
+        <h3 class="card-header">Flexbox Column</h3>
+        <p class="card-arti">Use this to create a Flexbox column layout.</p>
+        <pre><code><span>.column {
         display: flex;
         flex-direction: column;
       }
-      </code></pre>
+      </span></code></pre>
       </section>
       <section class="code-card">
-      <h3 class="card-header">CSS Grid Layout</h3>
-      <p>Build a 12-column layout using CSS Grid.</p>
-      <pre><code>.grid {
+        <h3 class="card-header">CSS Grid Layout</h3>
+        <p class="card-arti">Build a 12-column layout using CSS Grid.</p>
+        <pre><code><span>.grid {
         display: grid;
         width: 100%;
-        grid-template-columns: repeat(12, 1fr);
+        grid-template-columns: 
+        repeat(12, 1fr);
       }
-      </code></pre>
+      </span></code></pre>
       </section>
       <section class="code-card">
-      <h3 class="card-header">Linear Gradients</h3>
-      <p>This will create a background linear gradient from top to bottom.</p>
-      <pre><code>.linear-gradient-background {
-        background-image: linear-gradient(
-            rgba(232, 102, 236, 0.3) 0%,
-            rgba(232, 102, 236, 0.6) 100%
+        <h3 class="card-header">Linear Gradients</h3>
+        <p class="card-arti">
+          This will create a background linear gradient from top to bottom.
+        </p>
+        <pre><code><span>.linear-gradient-background {
+        background-image: 
+        linear-gradient(
+            rgba(232, 102, 236, 0.3) 
+                0%,
+            rgba(232, 102, 236, 0.6) 
+                100%
         );
       }
-      </code></pre>
+      </span></code></pre>
       </section>
       <section class="code-card">
-      <h3 class="card-header">Box Transition Glow</h3>
-      <p>The transition and box shadows to glow on hover.</p>
-      <pre><code>.code-card .card-header {
+        <h3 class="card-header">Box Transition Glow</h3>
+        <p class="card-arti">
+          The transition and box shadows to glow on hover.
+        </p>
+        <pre><code><span>.code-card .card-header {
             border-radius: 8px;
-            transition: all 0.5s ease-in-out;
+            transition: all 0.5s 
+            ease-in-out;
       }
-      .code-card:hover, .code-card:hover .code-header {
-        box-shadow: inset 0px 0px 8px rgba(232, 102, 236, 1), 0 0 15px rgba(232, 102, 236, 1);
+      .code-card:hover, 
+      .code-card:hover 
+      .code-header {
+        box-shadow: 
+            inset 0px 0px 8px 
+        rgba(232, 102, 236, 1), 
+        0 0 15px 
+            rgba(232, 102, 236, 1);
       }
-      </code></pre>
+      </span></code></pre>
       </section>
       <section class="code-card">
-      <h3 class="card-header">Overlay Card with Title</h3>
-      <p>
-        Use position properties and negative margins to raise elements highter
-        than herit natural starting point.
-      </p>
-      <pre><code>.card-header {
+        <h3 class="card-header">Overlay Card with Title</h3>
+        <p class="card-arti">
+          Use position properties and negative margins to raise elements highter
+          than herit natural starting point.
+        </p>
+        <pre><code><span>.card-header {
         position: relative;
         margin-top: -20px;
-      }</code></pre>
+      }</span></code></pre>
       </section>
     </article>
     <footer>Made with &#128150; and CSS</footer>
